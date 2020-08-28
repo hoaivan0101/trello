@@ -1,0 +1,25 @@
+{
+  "name": "trello-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoaivan0101/trello.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hoaivan0101/trello/issues"
+  },
+  "homepage": "https://github.com/hoaivan0101/trello#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.1",
+    "nodemon": "^2.0.4"
+  }
+}

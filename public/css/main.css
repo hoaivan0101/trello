@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.flex{
+    display:flex;
+    align-items: center;
+}
+
+.content{
+    height: 50px;
+    border: 1px solid black;
+    background: gray;
+    position: relative;
+}
+.col{
+    background:rgb(38, 136, 143);
+}
+
+.hidden{
+    display: none;
+}
+
+input{
+    display: block;
+}
+
+.maintest{
+    position: absolute;
+    margin-top: 10px;
+    display: none;
+    right:-200px;
+}
+
+#checkbox{
+    display: none;
+}
+
+.checkbox:checked ~.maintest{
+    display: block;
+
+}
+
+.status,.title,.date{
+    width: 100%;
+    margin-bottom: 5px;
+    height: 30px;
+}
+
+.content__job--items{
+    border-radius: 5px;
+    margin-top: 5px;
+    background: rgb(201, 200, 199);
+    padding: 4px;
+}
+
+.delete__btn{
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    margin-left: auto;
+    border-radius:3px;
+    border: none;
+    background:red;
+    opacity: 0.3;
+}

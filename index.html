@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Trello</title>
+  <link rel="stylesheet" href="./public/bootstrap-4.5.0-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="./public/css/GRID.css">
+  <link rel="stylesheet" href="./public/css/main.css">
+  <script src="./public/js/jquery-3.5.1.min.js"></script>
+</head>
+
+<body>
+  <div class="grid wide">
+    <div class="row">
+      <div class="col l-4">
+        <div class="content">
+          <label class="btn btn-primary" for="checkbox">Add Job</label>
+          <input type="checkbox" id="checkbox" class="checkbox">
+          <div class="maintest">
+            <input type="text" placeholder="Title" class="title" name="title">
+            <input type="text" placeholder="Deadline" class="date" name="date">
+            <!-- <input type="text" placeholder="Status" class="status" name="status"> -->
+            <select name="status" class="status" id="status">
+              <option value="Normal" selected>Normal</option>
+              <option value="Important">Important</option>
+              <option value="GoingtoDie">GoingtoDie</option>
+            </select>
+            <button class="add_btn">Confirm</button>
+          </div>
+          <div class="content__job"></div>
+        </div>
+      </div>
+      <div class="col l-4"></div>
+      <div class="col l-4"></div>
+    </div>
+  </div>
+
+</body>
+<script src="./public/js/main.js"></script>
+
+</html>
